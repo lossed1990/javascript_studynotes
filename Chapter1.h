@@ -15,5 +15,5 @@ public:
 		   alert("someing");         //更具入侵性   
 	 * @endcode
 	 */
-	void knowledge_point1;
+	void knowledge_point01;
 };

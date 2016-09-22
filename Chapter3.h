@@ -21,7 +21,7 @@ public:
 	 * @note ⑧从技术上讲，只有js对象才能拥有方法，然而，数字、字符串、布尔值也可以拥有自己的方法。在js中只有null和undefined是无法拥有方法的值。
 	 * @note ⑨不在任何函数内声明的变量称作全局变量，它在js程序中的任何地方可见，在函数内声明的变量具有函数作用域，尽在函数内可见。
 	 */
-	void knowledge_point1;
+	void knowledge_point01;
 
     /**
 	 * @brief 3.1数字
@@ -34,7 +34,7 @@ public:
 	 * @note ⑥NaN和任何值都不相等，包括自身，要判断一个值是否为NaN可使用isNaN()函数；函数isFinite()，在参数不是NaN、Infinity或-Infinity的时候返回true；
 	 * @note ⑦由于舍入误差，0.3和0.2之间的近似差值实际上不等于0.2和0.1之间的近似差值★ （page38）
 	 */
-	void knowledge_point2;
+	void knowledge_point02;
 
     /**
 	 * @brief 3.2文本
@@ -84,7 +84,7 @@ public:
 	   text.split(/\D+/)               // =>["","1","2","3"]:用非数字字符截取字符串 
 	 * @endcode
 	 */
-	void knowledge_point3;
+	void knowledge_point03;
 
 	/**
 	 * @brief 3.3布尔值
@@ -93,7 +93,7 @@ public:
 	 * @note ②布尔值包含toString()方法，可使用该方法将字符串转换成"true"或者"false";
 	 * @note ⑦尽管null和undefined是不同的，但他们都表示“值的空缺”，两者往往可以互换，“==”认为两种相等，“===”认为两者不等；
 	 */
-	void knowledge_point4;
+	void knowledge_point04;
 
 	/**
 	 * @brief 3.4null和undefined
@@ -101,7 +101,7 @@ public:
 	 * @note ①尽管null和undefined是不同的，但他们都表示“值的空缺”，两者往往可以互换，“==”认为两种相等，“===”认为两者不等；
 	 * @note ②undefined表示系统级的，出乎意料的或类似错误的值的空缺；null是表示程序级的、正常的或者意料之中的值的空缺；
 	 */
-	void knowledge_point5;
+	void knowledge_point05;
 
 	/**
 	 * @brief 3.5全局对象
@@ -115,7 +115,7 @@ public:
 	 * @endcode
 	 * @note ②在客户端js中，在其表示的浏览器窗口中的所有Js代码中，Window对象充当了全局对象。这个全局对象有一个属性window引用其自身；
 	 */
-	void knowledge_point6;
+	void knowledge_point06;
 
     /**
 	 * @brief 3.6包装对象★
@@ -138,7 +138,7 @@ public:
 	   var t = s.len;        //=>undefined :查询这个值，由于修改只发生在第二行的临时对象上，而第三行会重新创建一个临时对象，之前对象的属性值不会保留；
 	 * @endcode
 	 */
-	void knowledge_point7;
+	void knowledge_point07;
 
     /**
 	 * @brief 3.7不可变的原始值和可变的对象引用
@@ -147,7 +147,7 @@ public:
 	 * @note ②原始值的比较是值比较；
 	 * @note ③对象的比较并非值的比较，而是引用的比较：即使两个对象包含同样的属性及相同的值，他们也不是相等的。各个索引元素完全相等的两个数组也不相等；当且仅当它们引用同一个基对象时，他们才相等；
 	 */
-	void knowledge_point8;
+	void knowledge_point08;
 
 	/**
 	 * @brief 3.8类型转换
@@ -192,7 +192,7 @@ public:
 	 * @note  B对象到字符串：对象的toString()方法；  若有toString()先调用，否则调用valueOf(),否则返回类型错误异常；
 	 * @note  C对象到数字：对象的valueOf()方法；    若有valueOf()先调用，否则调用toString(),否则返回类型错误异常；
 	 */
-	void knowledge_point9;
+	void knowledge_point09;
 
 	/**
 	 * @brief 3.9变量申明

@@ -12,14 +12,14 @@ public:
 	 * @note ③JavaScript会忽略程序中的空格，多数情况下忽略换行符；
 	 * @note ④Unicode转义序列均以\\u为前缀，其后跟随4个十六进制数（例如\\u00e9)
 	 */
-	void knowledge_point1;
+	void knowledge_point01;
 
     /**
 	 * @brief 2.2注释
 	 *
 	 * @note ①单行、多行注释风格与c++一致
 	 */
-	void knowledge_point2;
+	void knowledge_point02;
 
     /**
 	 * @brief 2.4标识符和保留字
@@ -56,7 +56,7 @@ public:
 	 * @endcode
 	 * @note ③javascript的具体实现可能定义独有的全局变量和函数，每一种特定的javascript运行环境（客户端、服务端等）都有自己的一个全局属性列表；
 	 */
-	void knowledge_point3;
+	void knowledge_point03;
 
 	/**
 	 * @brief 2.5可选的分号
@@ -66,5 +66,5 @@ public:
 	 * @note ③两个特例：return、break、continue关键字后紧跟换行，js则会在换行处填补分号；
 	 * @note           “++”、“--”运算符，如果将其用做后缀表达式，他和表达式应处于同一行，否则其将会作为下一行的前缀操作符；
 	 */
-	void knowledge_point4;
+	void knowledge_point04;
 };
